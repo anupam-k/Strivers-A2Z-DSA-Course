@@ -281,4 +281,30 @@ Striver 3
 Striver 4
 Striver 5
 ```
+
+## _Do While Loop(Prints at least once)_
+
+_**Code**_
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    // Do While Loops
+    int i = 2;
+    do
+    {
+        cout << "Striver " << i << endl;
+        i = i + 1;
+    } while (i <= 1);
+    cout << i;
+}
+```
+
+_**Outputs**_
+```
+Striver 2
+3
+```
 </b>
