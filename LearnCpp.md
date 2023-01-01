@@ -83,7 +83,7 @@ int main()
 1. If age < 18<br>
    print -> not eligible for job
 
-2. If age >= 18<br>
+2. If age >= 18 and age <= 54<br>
    print -> "eligible for job"
 
 3. If age >= 55 and age <= 57<br>
@@ -114,4 +114,4 @@ int main()
 }
 ```
 
-  </b>
+</b>
