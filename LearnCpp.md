@@ -237,4 +237,19 @@ int main()
     return 0;
 }
 ```
+
+_**Output**_
+
+```cpp
+1 Striver
+2 Striver
+3 Striver
+4 Striver
+5 Striver
+6 Striver
+7 Striver
+8 Striver
+9 Striver
+10 Striver
+```
 </b>
