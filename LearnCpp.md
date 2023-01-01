@@ -254,4 +254,31 @@ _**Output**_
 9 Striver
 10 Striver
 ```
+
+## _While Loop_
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    // While Loops
+    int i = 1;
+    while (i <= 5)
+    {
+        cout << "Striver " << i << endl;
+        i = i + 1;
+    }
+}
+```
+
+_**Output**_
+```cpp
+Striver 1
+Striver 2
+Striver 3
+Striver 4
+Striver 5
+```
 </b>
