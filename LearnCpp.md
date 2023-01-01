@@ -307,4 +307,40 @@ _**Outputs**_
 Striver 2
 3
 ```
+
+## _Functions_
+- Functions are set of code which performs something for you
+- Functions are used to modularise code
+- Functions are used to increase readability
+- Functions are used to use same code multiple times
+
+### _Types of Functions:_
+- <b>_void:_</b> Which does not return aything
+- <b>_return:_</b>
+- <b>_paramaterised:_</b>
+- <b>_non paramaterised:_</b>
+
+_**Code**_
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+// void function example
+void printName(){
+    cout << "hey Striverr!";
+}
+
+// paramaterised function example
+void paraprintName(string name){
+    cout << "hey Striverr! Name: " << name;
+}
+
+int main(){
+    string name;
+    cin >> name;
+    printName(); // void function
+    paraprintName(name); // paramaterised function
+    return 0;
+}
+```
 </b>
