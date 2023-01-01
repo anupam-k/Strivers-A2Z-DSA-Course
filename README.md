@@ -1,1 +1,1 @@
-# C-Basics-in-One-Shot---Strivers-A2Z-DSA-Course
+# _C++ Basics-in-One Shot Strivers A2Z DSA Course_
