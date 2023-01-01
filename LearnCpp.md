@@ -186,4 +186,37 @@ int main()
 // Input 3 4 5 7 10
 // Output 17 16
 ```
+
+## _2D Array_
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    // 2D Array
+    int arr[3][5];
+
+    arr[1][3] = 78;
+    cout << arr[1][3];
+    return 0;
+}
+```
+
+## _String_
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    // String
+    string s = "Striver";
+    int len = s.size();
+    s[len - 1] = 'z';
+    cout << s[len - 1];
+}
+```
 </b>
