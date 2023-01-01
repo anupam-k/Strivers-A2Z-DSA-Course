@@ -125,7 +125,7 @@ int main()
  - For 1 print Mondy,
  - For 2 print Tuesday and so on for 7 print Sunday
 
-
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -157,8 +157,11 @@ int main()
     case 7:
         cout << "Sunday";
         break;
+    default:
+        cout << "Invalid":
     }
 
     return 0;
 }
+```
 </b>
