@@ -40,3 +40,8 @@ for(i=1 ; i<=5 ; i++){
 - Time Complexity, Worst Case Scenario
 - Avoid Constants
 - Avoid Lower Values
+
+## _3 Cases of Time Complexity_
+
+![All 3 cases](https://user-images.githubusercontent.com/91872149/210206118-0cf9b3e3-abe7-40d7-b94b-e26eba5812e4.png)
+
