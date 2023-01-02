@@ -360,4 +360,25 @@ int main()
     return 0;
 }
 ```
+
+## _Sum Function_
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+// Take two numbers ad print its sum
+int sum(int a, int b)
+{
+    return (a + b);
+}
+
+int main()
+{
+    int num1, num2;
+    cin >> num1 >> num2;
+    cout << "Sum: " << sum(num1, num2) << endl;
+    return 0;
+}
+```
 </b>
