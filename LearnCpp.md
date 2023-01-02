@@ -388,7 +388,6 @@ int main()
 #include <bits/stdc++.h>
 using namespace std;
 
-// Take two numbers ad print its sum
 int minn(int a, int b)
 {
     if (a > b)
