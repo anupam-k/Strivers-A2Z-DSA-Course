@@ -406,4 +406,31 @@ int main()
     return 0;
 }
 ```
+
+## _Pass By Value_
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+// Pass By Value
+void doSomething(int n)
+{
+    cout << n << endl;
+    n += 5;
+    cout << n << endl;
+    n += 5;
+    cout << n << endl;
+}
+
+int main()
+{
+    int num;
+    cin >> num;
+
+    doSomething(num);
+
+    return 0;
+}
+```
 </b>
