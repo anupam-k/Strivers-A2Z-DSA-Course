@@ -48,3 +48,5 @@ for(i=1 ; i<=5 ; i++){
 ## _Notations_
 ![Notations](https://user-images.githubusercontent.com/91872149/210206963-13b21b89-42c3-4f02-bcc8-3091c8d68223.png)
 
+## _Space Complexity_
+![space complexity](https://user-images.githubusercontent.com/91872149/210208090-090a84b1-0fd8-42dc-bba0-15b188bfa7ee.png)
