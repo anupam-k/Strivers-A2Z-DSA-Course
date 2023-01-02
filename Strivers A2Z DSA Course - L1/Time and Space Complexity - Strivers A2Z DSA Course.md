@@ -45,3 +45,6 @@ for(i=1 ; i<=5 ; i++){
 
 ![All 3 cases](https://user-images.githubusercontent.com/91872149/210206118-0cf9b3e3-abe7-40d7-b94b-e26eba5812e4.png)
 
+## _Notations_
+![Notations](https://user-images.githubusercontent.com/91872149/210206963-13b21b89-42c3-4f02-bcc8-3091c8d68223.png)
+
