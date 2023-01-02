@@ -50,3 +50,6 @@ for(i=1 ; i<=5 ; i++){
 
 ## _Space Complexity_
 ![space complexity](https://user-images.githubusercontent.com/91872149/210208090-090a84b1-0fd8-42dc-bba0-15b188bfa7ee.png)
+
+_**Example**_
+![example](https://user-images.githubusercontent.com/91872149/210208684-b208f313-bc9d-4fa8-97d8-a4cb28daf8f0.png)
