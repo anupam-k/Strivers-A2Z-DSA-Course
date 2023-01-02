@@ -381,4 +381,30 @@ int main()
     return 0;
 }
 ```
+
+## _Minimum of two numbers_
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+// Take two numbers ad print its sum
+int minn(int a, int b)
+{
+    if (a > b)
+    {
+        return b;
+    }
+    return a;
+}
+
+int main()
+{
+    int num1, num2;
+    cin >> num1 >> num2;
+    int minimum = minn(num1, num2);
+    cout << "Minimum: " << minimum << endl;
+    return 0;
+}
+```
 </b>
