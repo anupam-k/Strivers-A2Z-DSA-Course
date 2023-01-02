@@ -428,9 +428,21 @@ int main()
     int num;
     cin >> num;
 
-    doSomething(num);
-
+    doSomething(num); // this sends the copy, not the original value
+    cout<< num;  // prints 5 if input is 5
+  
     return 0;
 }
+```
+
+**_Output_**
+```cpp
+// Input
+5
+// Output
+5
+10
+15
+5
 ```
 </b>
