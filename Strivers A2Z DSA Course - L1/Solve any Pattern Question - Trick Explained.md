@@ -49,3 +49,18 @@ _(Most of the patterns will have Nested Loops)_
 
 
 </b>
+
+## _Pattern 2_
+
+<b>
+
+```
+* 
+** 
+*** 
+****
+*****
+```
+
+
+</b>
