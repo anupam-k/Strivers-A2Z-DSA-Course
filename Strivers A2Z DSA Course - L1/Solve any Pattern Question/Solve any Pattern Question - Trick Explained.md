@@ -65,7 +65,7 @@ _(Most of the patterns will have Nested Loops)_
 ```cpp
 for (int i = 0; i < 4; i++)
     {
-        for (int j = 0; j < i; j++)
+        for (int j = 0; j <= i; j++)
         {
             cout << "*";
         }
