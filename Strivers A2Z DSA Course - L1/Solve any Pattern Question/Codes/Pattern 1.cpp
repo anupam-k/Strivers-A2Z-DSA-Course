@@ -1,9 +1,9 @@
 /*
-Pattern Square of n*n
+Pattern:
+Square of n*n
 Let Say n = 5
 
 Then Output Will Be:
-
 *****
 *****
 *****
