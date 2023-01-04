@@ -30,19 +30,36 @@ _(Most of the patterns will have Nested Loops)_
 3. Print the stars now, inside the inner for loop
 ```
 
-## _Code_
+### _Code_
 <b>
 
 ```cpp
- int i, j;
-    for (i = 0; i < 4; i++)
+#include <bits/stdc++.h>
+using namespace std;
+
+void print(int n)
+{
+    for (int i = 0; i < n; i++)
     {
-        for (j = 0; j < 4; j++)
+        for (int j = 0; j < n; j++)
         {
             cout << "*";
         }
         cout << endl;
     }
+}
+
+int main()
+{
+    int t;
+    cin >> t;
+    for (int i = 0; i < t; i++)
+    {
+        int n;
+        cin >> n;
+        print(n);
+    }
+}
 ```
 ## _Explanation_
 ![Screenshot 2023-01-03 101755](https://user-images.githubusercontent.com/91872149/210301617-dcbdd196-158a-4d96-8852-374942a308bd.png)
@@ -62,8 +79,16 @@ _(Most of the patterns will have Nested Loops)_
 *****
 ```
 
+### _Code_
+
 ```cpp
-for (int i = 0; i < 4; i++)
+#include <bits/stdc++.h>
+
+using namespace std;
+
+void print(int n)
+{
+    for (int i = 0; i < n; i++)
     {
         for (int j = 0; j <= i; j++)
         {
@@ -71,6 +96,19 @@ for (int i = 0; i < 4; i++)
         }
         cout << endl;
     }
+}
+
+int main()
+{
+    int t;
+    cin >> t;
+    for (int i = 0; i < t; i++)
+    {
+        int n;
+        cin >> n;
+        print(n);
+    }
+}
 ```
 </b>
 
@@ -86,19 +124,210 @@ for (int i = 0; i < 4; i++)
 12345
 ```
 
-## _Code_
+### _Code_
 
 ```cpp
-   for (int i = 1; i <= num; i++)
+#include <bits/stdc++.h>
+
+using namespace std;
+
+void print(int n)
+{
+    for (int i = 1; i <= n; i++)
     {
         for (int j = 1; j <= i; j++)
         {
             cout << j << " ";
         }
         cout << endl;
-     }
+    }
+}
+
+int main()
+{
+    int t;
+    cin >> t;
+    for (int i = 0; i < t; i++)
+    {
+        int n;
+        cin >> n;
+        print(n);
+    }
+}
 ```
 
+## _Pattern 4_
+
+```
+1
+22
+333
+4444
+55555
+```
+
+### _**Code**_
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+void print(int n)
+{
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= i; j++)
+        {
+            cout << i << " ";
+        }
+        cout << endl;
+    }
+}
+
+int main()
+{
+    int t;
+    cin >> t;
+    for (int i = 0; i < t; i++)
+    {
+        int n;
+        cin >> n;
+        print(n);
+    }
+}
+
+```
+
+## _Pattern 5_
+
+```
+*****
+****
+***
+**
+*
+```
+
+### _Code_
+```
+#include <bits/stdc++.h>
+using namespace std;
+
+void print(int n)
+{
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 0; j < n - i + 1; j++)
+        {
+            cout << "*"
+                 << " ";
+        }
+        cout << endl;
+    }
+}
+
+int main()
+{
+    int t;
+    cin >> t;
+    for (int i = 0; i < t; i++)
+    {
+        int n;
+        cin >> n;
+        print(n);
+    }
+}
+```
+
+## _Pattern 6_
+
+```
+12345
+1234
+123
+12
+1
+```
+
+### _Code_
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+void print(int n)
+{
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= n - i + 1; j++)
+        {
+            cout << j;
+        }
+        cout << endl;
+    }
+}
+
+int main()
+{
+    int t;
+    cin >> t;
+    for (int i = 0; i < t; i++)
+    {
+        int n;
+        cin >> n;
+        print(n);
+    }
+}
+```
+
+## _Pattern 7_
+
+```
+    *
+   ***
+  *****
+ *******
+*********
+```
+
+### _Code_
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+void print(int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        // space
+        for (int j = 0; j < n - i - 1; j++)
+        {
+            cout << " ";
+        }
+        // star
+        for (int j = 0; j < 2 * i + 1; j++)
+            cout << "*";
+        // space
+        for (int j = 0; j < n - i - 1; j++)
+        {
+            cout << " ";
+        }
+        cout << endl;
+    }
+}
+
+int main()
+{
+    int t;
+    cin >> t;
+    for (int i = 0; i < t; i++)
+    {
+        int n;
+        cin >> n;
+        print(n);
+    }
+}
+```
 </b>
 
 
