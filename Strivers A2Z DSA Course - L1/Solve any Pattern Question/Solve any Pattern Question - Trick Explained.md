@@ -288,6 +288,8 @@ int main()
  *******
 *********
 ```
+### _Explanation_
+![7](https://user-images.githubusercontent.com/91872149/210490220-615bb088-1c9a-42fd-a453-1077a4ffc49a.png)
 
 ### _Code_
 
