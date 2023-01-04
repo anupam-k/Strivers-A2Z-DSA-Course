@@ -72,5 +72,35 @@ for (int i = 0; i < 4; i++)
         cout << endl;
     }
 ```
+</b>
+
+## _Pattern 3_
+
+<b>
+
+```
+1
+12
+123
+1234
+12345
+```
+
+## _Code_
+
+```cpp
+   for (int i = 1; i <= num; i++)
+    {
+        for (int j = 1; j <= i; j++)
+        {
+            cout << j << " ";
+        }
+        cout << endl;
+     }
+```
 
 </b>
+
+
+
+
