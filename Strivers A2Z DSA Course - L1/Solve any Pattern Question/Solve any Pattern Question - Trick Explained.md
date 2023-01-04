@@ -330,6 +330,185 @@ int main()
     }
 }
 ```
+## _Pattern 8_
+
+```
+*********
+ *******
+  *****
+   ***
+    *
+```
+
+### _Code_
+
+```cpp
+/* Inverted Tree Pattern */
+#include <bits/stdc++.h>
+using namespace std;
+
+void print(int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        // space
+        for (int j = 0; j < i; j++)
+        {
+            cout << " ";
+        }
+        // star
+        for (int j = 0; j < 2 * n - (2 * i + 1); j++)
+            cout << "*";
+        // space
+        for (int j = 0; j < i; j++)
+        {
+            cout << " ";
+        }
+        cout << endl;
+    }
+}
+
+int main()
+{
+    int t;
+    cin >> t;
+    for (int i = 0; i < t; i++)
+    {
+        int n;
+        cin >> n;
+        print(n);
+    }
+}
+```
+
+## _Pattern 9_
+
+```
+      *
+     ***
+    *****
+   *******
+  *********
+   *******
+    *****
+     ***
+      *
+```
+
+### _Code_
+
+```cpp
+/* Diamond Pattern: Combination Of Patter 7 & 8 */
+
+#include <bits/stdc++.h>
+using namespace std;
+
+void print7(int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        // space
+        for (int j = 0; j < n - i - 1; j++)
+        {
+            cout << " ";
+        }
+        // star
+        for (int j = 0; j < 2 * i + 1; j++)
+            cout << "*";
+        // space
+        for (int j = 0; j < n - i - 1; j++)
+        {
+            cout << " ";
+        }
+        cout << endl;
+    }
+}
+
+void print8(int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        // space
+        for (int j = 0; j < i; j++)
+        {
+            cout << " ";
+        }
+        // star
+        for (int j = 0; j < 2 * n - (2 * i + 1); j++)
+            cout << "*";
+        // space
+        for (int j = 0; j < i; j++)
+        {
+            cout << " ";
+        }
+        cout << endl;
+    }
+}
+
+int main()
+{
+    int t;
+    cin >> t;
+    for (int i = 0; i < t; i++)
+    {
+        int n;
+        cin >> n;
+        print7(n);
+        print8(n);
+    }
+}
+```
+
+## _Pattern 10_
+
+```
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+```
+
+## _Explanation_
+![symmetric](https://user-images.githubusercontent.com/91872149/210494964-31a57abe-c920-4915-954f-398fd709cafd.png)
+
+### _Code_
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+void print(int n)
+{
+    for (int i = 1; i <= 2 * n - 1; i++)
+    {
+        int stars = i;
+        if (i > n)
+            stars = 2 * n - i;
+        for (int j = 1; j <= stars; j++)
+        {
+            cout << "*";
+        }
+        cout << endl;
+    }
+}
+
+int main()
+{
+    int t;
+    cin >> t;
+    for (int i = 0; i < t; i++)
+    {
+        int n;
+        cin >> n;
+        print(n);
+    }
+}
+```
 </b>
 
 
